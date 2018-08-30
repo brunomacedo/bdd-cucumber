@@ -1,7 +1,7 @@
 {
   "name": "bdd-cucumber",
   "version": "1.0.0",
-  "description": "",
+  "description": "Behaviour-Driven Development (BDD) code examples.",
   "main": "cucumber.js",
   "dependencies": {
     "cucumber-pretty": "^1.4.4",
