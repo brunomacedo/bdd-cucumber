@@ -1,5 +1,5 @@
 Feature: Gerenciar documentos
- 	Como secretaria quero visualizar de forma categorizada as guias de Tratamento odontológicos (GTO). Para que eu consiga visualizar com clareza quantas guias foram geradas, enviadas, pagas e glosadas.
+  Como secretaria quero visualizar de forma categorizada as guias de Tratamento odontológicos (GTO). Para que eu consiga visualizar com clareza quantas guias foram geradas, enviadas, pagas e glosadas.
 
   Scenario: documentos existentes
     Given uma guia gerada
