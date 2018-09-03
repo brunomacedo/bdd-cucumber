@@ -9,6 +9,7 @@ Funcionalidade: Gerenciar documentos
 
   Esquema do Cenario: documentos existentes
     Quando selecionado um período de tempo
+    Mas não houver falha na conexão
     Entao visualizo todas as guias com o status "<status>"
 
     Exemplos:
