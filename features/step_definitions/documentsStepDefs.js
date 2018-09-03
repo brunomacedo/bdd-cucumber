@@ -4,23 +4,15 @@ const { Given, When, Then } = require('cucumber');
 Given('uma guia gerada', () => {
   return true;
 });
+
 When('selecionado um período de tempo', () => {
   return true;
 });
-Then(`visualizo todas as guias com o status gerada`, () => {
-  return true;
-});
-Then(`visualizo todas as guias com o status enviada`, () => {
-  return true;
-});
-Then(`visualizo todas as guias com o status paga`, () => {
-  return true;
-});
-Then(`visualizo todas as guias com o status glosada`, () => {
-  return true;
+
+Then('visualizo todas as guias com o status {string}', (expectedAnswer) => {
+  return expectedAnswer;
 });
 
-// Casos
 Then('não existir guias para o período', () => {
   this.actualAnswer = 'Não existe registo para o período selecionado.';
 });
