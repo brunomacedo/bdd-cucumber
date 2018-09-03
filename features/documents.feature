@@ -1,6 +1,6 @@
 # language: pt
 Funcionalidade: Gerenciar documentos
-  Como secretaria de um consultório odontológicos
+  Como secretaria de um consultório odontológico
   Eu quero listar de forma categorizada todas as guias de tratamento (GTO)
   Para que eu consiga visualizar com clareza quantas guias foram geradas, enviadas, pagas e glosadas
 
@@ -10,7 +10,7 @@ Funcionalidade: Gerenciar documentos
   Esquema do Cenario: documentos existentes
     Quando selecionado um período de tempo
     Mas não houver falha na conexão
-    Entao visualizo todas as guias com o status "<status>"
+    Então visualizo todas as guias com o status "<status>"
 
     Exemplos:
       | gtoId | customerName | status   |
@@ -23,9 +23,9 @@ Funcionalidade: Gerenciar documentos
     Quando selecionado um período de tempo
     E não existir guias para o período
     Mas não houver falha na conexão
-    Entao visualizo a mensagem "Não existe registo para o período selecionado."
+    Então visualizo a mensagem "Não existe registo para o período selecionado."
 
   Cenario: falha na conexão
     Quando selecionado um período de tempo
     E houver alguma falha de comunicação com a base de dados
-    Entao visualizo a mensagem "Falha de conexão, repita a operação."
+    Então visualizo a mensagem "Falha de conexão, repita a operação."
