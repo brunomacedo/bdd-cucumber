@@ -13,6 +13,9 @@ Then(`visualizo todas as guias com o status gerada`, () => {
 Then(`visualizo todas as guias com o status enviada`, () => {
   return true;
 });
+Then(`visualizo todas as guias com o status paga`, () => {
+  return true;
+});
 Then(`visualizo todas as guias com o status glosada`, () => {
   return true;
 });
