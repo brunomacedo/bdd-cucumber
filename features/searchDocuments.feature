@@ -1,6 +1,6 @@
 # language: pt
 Funcionalidade: Busca amigável de documentos
-  Como secretaria de um consultório odontológico
+  Como secretária de um consultório odontológico
   Eu quero encontrar uma GTO por número (ID) ou nome de pacientes
   Para que eu consiga visualizar as informações da GTO
 
