@@ -1,6 +1,8 @@
 # language: pt
 Funcionalidade: Gerenciar documentos
-  Como secretaria quero visualizar de forma categorizada as guias de Tratamento odontológicos (GTO). Para que eu consiga visualizar com clareza quantas guias foram geradas, enviadas, pagas e glosadas.
+  Como secretaria de um consultório odontológicos
+  Eu quero listar de forma categorizada todas as guias de tratamento (GTO)
+  Para que eu consiga visualizar com clareza quantas guias foram geradas, enviadas, pagas e glosadas
 
   Contexto:
     Dado uma guia gerada
@@ -13,7 +15,8 @@ Funcionalidade: Gerenciar documentos
       | gtoId | customerName | status   |
       | 1     | Maria        | gerada   |
       | 2     | João         | enviada  |
-      | 3     | José         | glosada  |
+      | 3     | Sandra       | paga     |
+      | 4     | José         | glosada  |
 
   Cenario: documentos inexistentes
     Quando selecionado um período de tempo
