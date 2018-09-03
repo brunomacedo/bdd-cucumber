@@ -9,7 +9,7 @@ Funcionalidade: Gerenciar documentos
 
   Esquema do Cenario: documentos existentes
     Quando selecionado um período de tempo
-    Entao visualizo todas as guias com o status <status>
+    Entao visualizo todas as guias com o status "<status>"
 
     Exemplos:
       | gtoId | customerName | status   |
