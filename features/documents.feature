@@ -1,6 +1,6 @@
 # language: pt
 Funcionalidade: Gerenciar documentos
-  Como secretaria de um consultório odontológico
+  Como secretária de um consultório odontológico
   Eu quero listar de forma categorizada todas as guias de tratamento (GTO)
   Para que eu consiga visualizar com clareza quantas guias foram geradas, enviadas, pagas e glosadas
 
