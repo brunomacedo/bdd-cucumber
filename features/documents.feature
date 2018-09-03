@@ -7,7 +7,7 @@ Funcionalidade: Gerenciar documentos
   Contexto:
     Dado uma guia gerada
 
-  Esquema do Cenario: documentos existentes
+  Esquema do Cenário: documentos existentes
     Quando selecionado um período de tempo
     Mas não houver falha na conexão
     Então visualizo todas as guias com o status "<status>"
@@ -19,13 +19,13 @@ Funcionalidade: Gerenciar documentos
       | 3     | Sandra       | paga     |
       | 4     | José         | glosada  |
 
-  Cenario: documentos inexistentes
+  Cenário: documentos inexistentes
     Quando selecionado um período de tempo
     E não existir guias para o período
     Mas não houver falha na conexão
     Então visualizo a mensagem "Não existe registo para o período selecionado."
 
-  Cenario: falha na conexão
+  Cenário: falha na conexão
     Quando selecionado um período de tempo
     E houver alguma falha de comunicação com a base de dados
     Então visualizo a mensagem "Falha de conexão, repita a operação."

@@ -7,14 +7,14 @@ Funcionalidade: Busca amigável de documentos
   Contexto:
     Dado uma guia existente
 
-  Cenario: Busca por número
+  Cenário: Busca por número
     Quando um número é enviado
     Então retorna o registro com os dados da guia
 
-  Cenario: Busca por nome
+  Cenário: Busca por nome
     Quando um nome é enviado
     Então retorna o registro com os dados da guia
 
-  # Cenario: Guia não existente
+  # Cenário: Guia não existente
   #   Quando envio o número de pesquisa
   #   Então envia mensagem "Registro não existe!"
